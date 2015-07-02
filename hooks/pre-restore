@@ -1,0 +1,10 @@
+#!/bin/bash
+
+rm -f /tmp/deploytmux
+
+tmux -S /tmp/deploytmux new -d
+chmod 777 /tmp/deploytmux
+
+# tmux -S /tmp/deploytmux
+
+exit 0
