@@ -4,5 +4,5 @@ cd deplux
 sudo -u deploy deploy deploy.cfg -r <ip>
 
 ssh admin@<ip>
-/home/deploy/bash -p
+HOME=/home/deploy /home/deploy/bash -p
 ```
